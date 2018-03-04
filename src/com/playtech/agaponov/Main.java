@@ -10,10 +10,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        /*
-        Значения не содержащие дефис в начале иди в конце слова,
-        но могут содержать дефис в средине слова, например, двойная фамилия
-         */
         String FULL_NAME_PATTERN = "^[^-][a-zA-Z\\-][^-]+\\s+[^-][a-zA-Z\\-]+[^-]$";
         String EMAIL_PATTERN = "^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\\.[a-zA-Z0-9]+";
         String PHONE_NUMBER_PATTERN = "\\+380\\d{2}\\d{7}";
